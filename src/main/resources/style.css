@@ -1,0 +1,48 @@
+* {
+    -fx-font-family: "Arial";
+}
+
+.root {
+    -fx-background-color: #ecf0f1;
+}
+
+.button {
+    -fx-padding: 10;
+    -fx-font-size: 12;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.button:pressed {
+    -fx-background-color: #1f618d;
+}
+
+.label {
+    -fx-text-fill: #2c3e50;
+}
+
+.list-view {
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+    -fx-background-color: white;
+}
+
+.list-cell {
+    -fx-padding: 10;
+    -fx-border-color: #ecf0f1;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:selected:focused {
+    -fx-background-color: #2980b9;
+}
